@@ -8,7 +8,7 @@ import handlebars from 'vite-plugin-handlebars';
 import hbsContext  from './context/context.js';
 export default defineConfig(
     {
-        base: '/',
+        base: '/blundled_deploy/',
         appType: 'mpa',
         build: {
             rollupOptions: {
